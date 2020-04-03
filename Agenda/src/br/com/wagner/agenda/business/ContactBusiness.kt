@@ -9,7 +9,7 @@ class ContactBusiness {
         if (nome == "") {
             throw Exception("Campo <Nome> não pode ser vazio")
         } else if (fone == "") {
-            throw Exception("Campo <Telefone> não pode ser vazio")
+            throw Exception("Campo <Telefone> não pode ser vazio.")
         }
     }
 
